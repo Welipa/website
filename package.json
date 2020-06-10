@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Welipa website",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Welipa/website.git"
+  },
+  "author": "Kennedy Sigauke",
+  "bugs": {
+    "url": "https://github.com/Welipa/website/issues"
+  },
+  "homepage": "https://github.com/Welipa/website#readme",
+  "dependencies": {
+    "semantic-ui": "^2.4.2"
+  }
+}
