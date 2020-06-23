@@ -1,14 +1,16 @@
 $(document)
     .ready(function() {
-        $('.nav a').click(function(){
+        const $el = $('.menu-container');
+
+        $('.nav-link').click(function(){
             $(".active").removeClass("active");
             $(this).addClass("active");
+            const position = $(this)[0].hash === '#contact' ?
+                document.body.scrollHeight : $($(this).attr('href')).offset().top;
 
             $('html, body').stop().animate({
-                scrollTop: $($(this).attr('href')).offset().top - 160
-                // TODO: Fix issue with animation
-            }, 300);
+                scrollTop: position
+            }, 500);
             return false;
         });
-
     });

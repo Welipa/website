@@ -59,3 +59,14 @@ hr {
 .features {
     margin-top: 1rem;
 }
+
+#team {
+    margin-top: 1rem;
+}
+
+.image > img {
+    min-width: 200px;
+    width: 200px;
+    min-height: 200px;
+    height: 200px;
+}
