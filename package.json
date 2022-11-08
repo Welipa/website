@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/Welipa/website#readme",
   "dependencies": {
-    "semantic-ui": "^2.4.2"
+    "semantic-ui": "^2.5.0"
   }
 }
